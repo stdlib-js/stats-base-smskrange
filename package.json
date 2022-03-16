@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-base-smskrange",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "Calculate the range of a single-precision floating-point strided array according to a mask.",
   "license": "Apache-2.0",
   "author": {
