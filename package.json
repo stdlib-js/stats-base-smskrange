@@ -1,0 +1,47 @@
+{
+  "name": "@stdlib/stats-base-smskrange",
+  "version": "0.0.0",
+  "description": "Calculate the range of a single-precision floating-point strided array according to a mask.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/stats-base-smskrange.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "statistics",
+    "stats",
+    "mathematics",
+    "math",
+    "maximum",
+    "max",
+    "minimum",
+    "min",
+    "range",
+    "extremes",
+    "domain",
+    "extent",
+    "dispersion",
+    "strided",
+    "strided array",
+    "masked",
+    "mask",
+    "masked array",
+    "typed",
+    "array",
+    "float32",
+    "float",
+    "single",
+    "float32array"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
