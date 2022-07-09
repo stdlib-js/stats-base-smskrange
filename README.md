@@ -61,7 +61,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.smskrange;
+})();
 })();
 </script>
 ```
@@ -191,6 +193,7 @@ var v = smskrange.ndarray( N, x, 2, 1, mask, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-smskrange@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var mask;
 var x;
@@ -212,6 +215,7 @@ console.log( mask );
 var v = smskrange( x.length, x, 1, mask, 1 );
 console.log( v );
 
+})();
 })();
 </script>
 </body>
@@ -312,25 +316,25 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [range]: https://en.wikipedia.org/wiki/Range_%28statistics%29
 
-[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/umd
+[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/umd/tree/umd
 
-[@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8/tree/umd
+[@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8/tree/umd/tree/umd
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dmskrange]: https://github.com/stdlib-js/stats-base-dmskrange/tree/umd
+[@stdlib/stats/base/dmskrange]: https://github.com/stdlib-js/stats-base-dmskrange/tree/umd/tree/umd
 
-[@stdlib/stats/base/mskrange]: https://github.com/stdlib-js/stats-base-mskrange/tree/umd
+[@stdlib/stats/base/mskrange]: https://github.com/stdlib-js/stats-base-mskrange/tree/umd/tree/umd
 
-[@stdlib/stats/base/smskmax]: https://github.com/stdlib-js/stats-base-smskmax/tree/umd
+[@stdlib/stats/base/smskmax]: https://github.com/stdlib-js/stats-base-smskmax/tree/umd/tree/umd
 
-[@stdlib/stats/base/smskmin]: https://github.com/stdlib-js/stats-base-smskmin/tree/umd
+[@stdlib/stats/base/smskmin]: https://github.com/stdlib-js/stats-base-smskmin/tree/umd/tree/umd
 
-[@stdlib/stats/base/snanrange]: https://github.com/stdlib-js/stats-base-snanrange/tree/umd
+[@stdlib/stats/base/snanrange]: https://github.com/stdlib-js/stats-base-snanrange/tree/umd/tree/umd
 
-[@stdlib/stats/base/srange]: https://github.com/stdlib-js/stats-base-srange/tree/umd
+[@stdlib/stats/base/srange]: https://github.com/stdlib-js/stats-base-srange/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
